@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-button block (click)="onClickLoginPage()">
+      <ion-icon name="log-in"><span> Log In/Sign Up</span></ion-icon>
+    </button>
+
+    <button ion-button block (click)="onClickOpenTicketPage()">
+      <ion-icon name="add"><span> Open Ticket</span></ion-icon>
+    </button>
+
+    <button ion-button block (click)="onClickSearchPage()">
+      <ion-icon name="search"><span> Search Locations</span></ion-icon>
+    </button>
+
+    <!-- <button ion-button block (click)="onClickLogsPage()">
+      <ion-icon name="build"><span> Logs</span></ion-icon>
+    </button> -->
+
+    <button ion-button block (click)="onClickLogOut()">
+      <ion-icon name="log-out" color=""><span> Log out</span></ion-icon>
+    </button>
+  </ion-list>
+
+
+</ion-content>
