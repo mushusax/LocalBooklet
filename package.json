@@ -32,6 +32,8 @@
     "angular-instantsearch": "^2.0.2",
     "angularfire2": "^5.0.0-rc.11",
     "cordova-android": "7.0.0",
+    "cordova-browser": "5.0.3",
+    "cordova-ios": "4.5.4",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-facebook4": "^2.2.0",
     "cordova-plugin-googleplus": "^5.2.1",
@@ -67,7 +69,9 @@
       }
     },
     "platforms": [
-      "android"
+      "android",
+      "ios",
+      "browser"
     ]
   }
 }

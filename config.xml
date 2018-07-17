@@ -89,4 +89,6 @@
         <variable name="APP_NAME" value="poc_v5" />
     </plugin>
     <engine name="android" spec="7.0.0" />
+    <engine name="ios" spec="4.5.4" />
+    <engine name="browser" spec="5.0.3" />
 </widget>
